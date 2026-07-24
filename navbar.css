@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Zen Dots", sans-serif;
+}
+
+
 nav {
     position: sticky;
     top: 0;
@@ -9,13 +19,6 @@ nav {
     font-weight: 900;
     background-color: rgba(46, 23, 129, 50%);
     color: #e4f8fa;
-    text-shadow: 
-        0 0 5px #00f3ff,
-        0 0 10px #00f3ff,
-        0 0 20px #00f3ff, /* Bright cyan core */
-        0 0 40px #00f3ff,
-        0 0 80px #00f3ff, /* Wide outer aura */
-        0 0 120px #00f3ff;
     border: solid;
     border-color: #00f3ff;
     border-style: double;
@@ -46,6 +49,29 @@ nav {
         0 0 40px #4d2eff,
         0 0 80px #4d2eff, 
         0 0 120px #4d2eff
+    ;
+    cursor: pointer;
+}
+
+#home {
+    text-shadow: 
+    0 0 5px #00f3ff,
+    0 0 10px #00f3ff,
+    0 0 20px #00f3ff, /* Bright cyan core */
+    0 0 40px #00f3ff,
+    0 0 80px #00f3ff, /* Wide outer aura */
+    0 0 120px #00f3ff;
+    z-index: 1000;
+}
+
+#home :hover {
+    text-shadow: 
+    0 0 5px #fff,
+    0 0 10px #4d2eff,
+    0 0 20px #4d2eff, 
+    0 0 40px #4d2eff,
+    0 0 80px #4d2eff, 
+    0 0 120px #4d2eff
     ;
     cursor: pointer;
 }
