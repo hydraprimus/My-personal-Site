@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Zen Dots", sans-serif;
+}
+
+body {
+    background-image: url(img/starry\ sky.avif);
+}
+
+#maincontent {
+    text-align: center;
+    margin: 10vh;
+    padding: 6vh;
+    border: solid;
+    min-height: 50vh;
+    color: aliceblue;
+    border-color: aqua;
+    border-style: double;
+    border-width: 5px;
+    text-shadow: 
+    0 0 5px #00f3ff,
+    0 0 10px #00f3ff,
+    0 0 20px #00f3ff, /* Bright cyan core */
+    0 0 40px #00f3ff,
+    0 0 80px #00f3ff, /* Wide outer aura */
+    0 0 120px #00f3ff;
+    font-size: 1.5rem;
+}
+
+#maincontent h1 {
+    padding: 3vh 0 8vh 0;
+    font-size: 3rem;
+}
